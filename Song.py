@@ -12,7 +12,7 @@ class Song:
   
   # TODO: Create a setter method for the next_song attribute, called set_title. Make sure titles are type cased to strings and are Title Cased.
   def set_title(self, title):
-    self.__title = ('title').title()
+    self.__title = title
 
 
   # TODO: Create a getter method for the next_song attribute, called get_next_song
